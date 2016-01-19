@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en" ng-app="app">
+  <head>
+    <title>Web Scraper</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+  </head>
+  <body ng-controller="UrlController">
+    <div class="container">
+    
+    
+    <div class="center">
+      <h1>Web-Scraper</h1>
+      <p>place your url below:</p>
+      <input type="text" name="url" ng-model="url"/>
+      <input type="button" class="btn btn-primary" ng-click="findUrl(url)" />
+    </div>
+    <div class="output-container">
+      
+          <p ng-repeat="items in links.data" >{{ items }}</p>  
+
+    </div>
+    
+    <div class="output-container">
+      
+          <p ng-repeat="items in outPut.data" >{{ items }}</p>  
+
+    </div>
+    
+    
+    </div>
+    
+    <script src="js/angular.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/app.js"></script>
+    
+
+  </body>
+</html>

@@ -1,0 +1,19 @@
+{
+  "name": "node web scraper",
+  "version": "0.0.0",
+  "description": "",
+  "main": "server.js",
+  "repository": "",
+  "author": "tim mulqueen",
+  "dependencies": {
+    "cheerio": "latest",
+    "express": "latest",
+    "json-stringify-safe": "^5.0.1",
+    "jsonfile": "^2.2.3",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "body-parser": "^1.14.0",
+    "x-ray": "^2.0.2"
+  }
+}
