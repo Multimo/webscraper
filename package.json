@@ -1,5 +1,5 @@
 {
-  "name": "node web scraper",
+  "name": "nodewebscraper",
   "version": "0.0.0",
   "description": "",
   "main": "server.js",
@@ -10,7 +10,8 @@
     "express": "latest",
     "json-stringify-safe": "^5.0.1",
     "jsonfile": "^2.2.3",
-    "request": "latest"
+    "request": "latest",
+    "x-ray": "^2.2.0"
   },
   "devDependencies": {
     "body-parser": "^1.14.0",
